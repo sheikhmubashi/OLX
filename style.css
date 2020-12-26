@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header  {
+    background-color: #f7f8f9;
+    height: 66px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 2%;
+}
+
+.search {
+width: 64%;
+}
+
+.btn {
+ width: 24%;
+}
+
+
+.categories {
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    display: flex;
+}
+
+.banner {
+    width: 100%;
+    height: 254px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.banner > img {
+    width: 180%;
+    margin-left: -41%;
+}
+
+.feature {
+    width: 85%;
+    height: 30%;
+    background-color: #ebeeef;
+    /* margin-top: 50px; */
+    display: flex;
+    padding-top: 33px;
+    margin-left: 100px;
+}
+
+.feature > div {
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 85%;
+    background-color: white;
+
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main_feature {
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    text-align: center;
+    padding-top: 40px;
+}
+
+.product {
+background-color: white;
+width: 100%;
+height: 800px;;
+}
+
+.footer_banner {
+    width: 100%;
+    height: 198px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer_section {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #002f34;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+form > input {
+    border-radius: 6px;
+}
+
+.sellbtn {
+    border-radius: 20px;
+    border: 1px solid;
+    border-top: #23e5db;
+    border-right: #ffce32;
+}
+
+.profile {
+    border-radius: 50px;
+}
+
+ul.headerul>li {
+    font-size: 27px;
+    width: 50px;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+.searchbtn {
+    background-color: #002f34;
+    width: 50px;
+    height: 52px;
+    margin-left: -37px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grounded-radiants {
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 16px;
+    background: #fff;
+    background-clip: padding-box;
+    padding: 1px;
+}
+
+.grounded-radiants::after {
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    background: linear-gradient(210deg, #0037ff 0%, #00c4ff 68%,yellow 54%);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.ALLCATEGORIES {
+    width: 14%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.MobilePhones {
+    width: 86%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ul > li {
+    display: flex;
+    list-style:none;
+}
+
+
+.Motorcycles {
+    display: flex;
+}
+
+.productone {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.btn {
+    display: contents;
+}
+
+.btn > button  {
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
